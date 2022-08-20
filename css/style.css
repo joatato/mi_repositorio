@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../IMG/hermosa-vista-lago-rodeado-montanas-lago-longrin-presa-suiza_181624-27908.jpg);
+    height: 40rem;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.navbar {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar__logo {
+    width: 15rem;
+}
+
+.navbar__links {
+    list-style: none;
+    border: 6rem;
+    border-color: blue;
+}
+
+li{
+    margin-left: 2rem;
+}
+
+.navbar__links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: rgb(219, 167, 88);
+}
+
+p {
+    margin: 4rem;
+    font-family: tahoma;
+    font-size: 1.2rem;
+
+}
+
+.container {
+    width: 95%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.col {
+    width: 100%;
+}
+
+h1 {
+    color: #e2e62c;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.contexto__producto {
+    margin: 2rem;
+    max-width: 40rem;
+    padding: 2rem;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+    background-color: aliceblue;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen__producto {
+    width: 30rem;
+    align-items: center;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 2rem;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+    }
+
+    .container {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar__links {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width:1240px) {
+    .encabezado {
+        font-size: 50px;
+        text-align: center;
+        color: blue;
+    }
+}
