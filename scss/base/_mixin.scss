@@ -1,0 +1,5 @@
+@mixin p ($font){
+    margin: 4rem;
+    font-family: $font;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,51 @@
+.svg1 {
+    height: 100%;
+}
+
+.video {
+    align-content: center;
+}
+
+.col {
+    width: 95%;
+}
+
+.container {
+    @extend .col;
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+p {
+    @include p (tahoma);
+}
+
+h2 {
+    @include p (sans-serif);
+}
+
+
+h1 {
+    color: map-get($colors , color-yellow);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.contexto__producto {
+    margin: 2rem;
+    max-width: 40rem;
+    padding: 2rem;
+    box-shadow: 0 10px 30px -10px $color-black;
+    background-color: map-get($colors, color-white);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen__producto {
+    width: 30rem;
+    align-items: center;
+}

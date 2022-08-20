@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+    }
+
+    .container {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar__links {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width:1240px) {
+    .encabezado {
+        font-size: 50px;
+        text-align: center;
+        color: map-get($colors, color-blue);
+    }
+
+    a {
+        color: map-get($colors, color-blue);
+    }
+}
