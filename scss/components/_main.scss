@@ -25,7 +25,6 @@ h2 {
     @include p (sans-serif);
 }
 
-
 h1 {
     color: map-get($colors , color-yellow);
     font-family: 'Roboto', sans-serif;

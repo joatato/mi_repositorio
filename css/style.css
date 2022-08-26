@@ -129,6 +129,11 @@ footer {
   }
 }
 /* PAGES */
+/* INDEX */
+.video {
+  width: 100%;
+}
+
 /* UBICACION */
 .ubi {
   width: 100%;
