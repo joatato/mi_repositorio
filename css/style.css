@@ -96,11 +96,19 @@ h1 {
   align-items: center;
 }
 
+.row {
+  margin: 0px;
+}
+
 /* FOOTER */
 footer {
   color: #000000;
   background-color: black;
   padding: 2rem;
+}
+
+.footertext {
+  color: #e2e62c;
 }
 
 /* MEDIA */
@@ -131,12 +139,21 @@ footer {
 /* PAGES */
 /* INDEX */
 .video {
-  width: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.videocopado {
+  align-items: center;
 }
 
 /* UBICACION */
 .ubi {
   width: 100%;
+}
+
+.imgubicacion {
+  margin: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
